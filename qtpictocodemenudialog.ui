@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>154</width>
-    <height>231</height>
+    <width>204</width>
+    <height>262</height>
    </rect>
   </property>
   <property name="font">
@@ -45,7 +45,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPicToCode.qrc">:/p2c/images/PicNds14x14.png</pixmap>
+      <pixmap resource="PicToCode.qrc">:/p2c/images/PicNds14x14.png</pixmap>
      </property>
     </widget>
    </item>
@@ -55,7 +55,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPicToCode.qrc">:/p2c/images/PicQt14x14.png</pixmap>
+      <pixmap resource="PicToCode.qrc">:/p2c/images/PicQt14x14.png</pixmap>
      </property>
     </widget>
    </item>
@@ -99,7 +99,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPicToCode.qrc">:/p2c/images/PicTo14x14.png</pixmap>
+      <pixmap resource="PicToCode.qrc">:/p2c/images/PicTo14x14.png</pixmap>
      </property>
     </widget>
    </item>
@@ -109,14 +109,14 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPicToCode.qrc">:/p2c/images/PicStl14x14.png</pixmap>
+      <pixmap resource="PicToCode.qrc">:/p2c/images/PicStl14x14.png</pixmap>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
  <resources>
-  <include location="ToolPicToCode.qrc"/>
+  <include location="PicToCode.qrc"/>
  </resources>
  <connections/>
 </ui>

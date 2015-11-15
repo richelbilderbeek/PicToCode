@@ -237,7 +237,7 @@ ribi::About ribi::p2c::MenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "PicToCode",
     "tool to convert a picture to C++ code",
-    "the 20th of August 2015",
+    "the 15th of November 2015",
     "2010-2015",
     "http://www.richelbilderbeek.nl/ToolPicToCode.htm",
     GetVersion(),
@@ -269,18 +269,9 @@ ribi::Help ribi::p2c::MenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::p2c::MenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const ribi::Program> p {
-    new ProgramPicToCode
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::p2c::MenuDialog::GetVersion() const noexcept
 {
-  return "1.7";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::p2c::MenuDialog::GetVersionHistory() const noexcept
@@ -294,6 +285,7 @@ std::vector<std::string> ribi::p2c::MenuDialog::GetVersionHistory() const noexce
     "2015-08-20: version 1.5: NDS code has seperate header and implementation file",
     "2015-08-26: version 1.6: created command-line version",
     "2015-08-27: version 1.7: added --class_name flag to command-line version, creates correct NDS images",
+    "2015-11-15: version 2.0: moved to own GitHub",
   };
 }
 
