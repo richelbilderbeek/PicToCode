@@ -29,7 +29,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include <QImage>
 
 #include "fileio.h"
-#include "richelbilderbeekprogram.h"
 #include "testtimer.h"
 #include "trace.h"
 #include "pictocodemaindialog.h"
