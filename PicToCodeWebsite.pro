@@ -1,13 +1,13 @@
-include(../../WebApplication.pri)
-include(../../Libraries/BoostAll.pri)
-include(../../Libraries/Wt.pri)
+include(../RibiLibraries/WebApplication.pri)
+include(../RibiLibraries/BoostAll.pri)
+include(../RibiLibraries/Wt.pri)
 
-include(../../Libraries/GeneralConsole.pri)
-include(../../Libraries/GeneralWeb.pri)
+include(../RibiLibraries/GeneralConsole.pri)
+include(../RibiLibraries/GeneralWeb.pri)
 
-include(../../Classes/CppQtSprites/CppQtSprites.pri)
+include(../RibiClasses/CppQtSprites/CppQtSprites.pri)
 
-include(ToolPicToCodeWebsite.pri)
+include(PicToCodeWebsite.pri)
 
 SOURCES += wtmain.cpp
 

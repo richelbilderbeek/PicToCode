@@ -1,10 +1,10 @@
-include(../../Tools/ToolPicToCode/ToolPicToCodeConsole.pri)
+include(../PicToCode/PicToCodeConsole.pri)
 
 SOURCES += \
-    ../../Tools/ToolPicToCode/wtpictocodemaindialog.cpp \
-    ../../Tools/ToolPicToCode/wtpictocodemenudialog.cpp
+    ../PicToCode/wtpictocodemaindialog.cpp \
+    ../PicToCode/wtpictocodemenudialog.cpp
 
 HEADERS  += \
-    ../../Tools/ToolPicToCode/wtpictocodemaindialog.h \
-    ../../Tools/ToolPicToCode/wtpictocodemenudialog.h
+    ../PicToCode/wtpictocodemaindialog.h \
+    ../PicToCode/wtpictocodemenudialog.h
 
