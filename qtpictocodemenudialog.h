@@ -16,7 +16,7 @@ namespace p2c {
 
 class QtMenuDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtMenuDialog(QWidget *parent = 0);

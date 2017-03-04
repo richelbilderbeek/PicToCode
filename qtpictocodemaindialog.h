@@ -40,7 +40,7 @@ namespace p2c {
 
 class QtMainDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtMainDialog(QWidget *parent = 0);

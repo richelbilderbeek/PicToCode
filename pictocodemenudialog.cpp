@@ -1,23 +1,3 @@
-//---------------------------------------------------------------------------
-/*
-PicToCode, tool to convert a picture to C++ code
-Copyright (C) 2010-2015 Richel Bilderbeek
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
-GNU General Public License for more details.
-You should have received a copy of the GNU General Public License
-along with this program.If not, see <http://www.gnu.org/licenses/>.
-*/
-//---------------------------------------------------------------------------
-//From http://www.richelbilderbeek.nl/ToolPicToCode.htm
-//---------------------------------------------------------------------------
 #include "pictocodemenudialog.h"
 
 #include <cassert>
@@ -29,8 +9,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include <QImage>
 
 #include "fileio.h"
-#include "testtimer.h"
-#include "trace.h"
 #include "pictocodemaindialog.h"
 
 int ribi::p2c::MenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
@@ -242,8 +220,6 @@ ribi::About ribi::p2c::MenuDialog::GetAbout() const noexcept
     GetVersion(),
     GetVersionHistory()
   );
-  a.AddLibrary("TestTimer version: " + TestTimer::GetVersion());
-  a.AddLibrary("Trace version: " + Trace::GetVersion());
   return a;
 }
 
@@ -300,7 +276,6 @@ void ribi::p2c::MenuDialog::Test() noexcept
     fileio::FileIo();
     MainDialog();
   }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
   {
     MenuDialog d;
     const std::string temp_png{"temp.png"};
