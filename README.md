@@ -1,5 +1,7 @@
 # PicToCode
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/PicToCode/).
+
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/PicToCode.svg?branch=master)](https://travis-ci.org/richelbilderbeek/PicToCode)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PicToCode/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/PicToCode/branch/master)
