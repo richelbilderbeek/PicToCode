@@ -35,7 +35,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include "pictocodemaindialog.h"
 #include "pictocodemenudialog.h"
 #include "qtsprites.h"
-#include "testtimer.h"
 #include "trace.h"
 #include "ui_qtpictocodemaindialog.h"
 #pragma GCC diagnostic pop
@@ -138,6 +137,5 @@ void ribi::p2c::QtMainDialog::Test() noexcept
   {
     MainDialog();
   }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
 }
 #endif

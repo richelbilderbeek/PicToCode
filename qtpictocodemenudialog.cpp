@@ -7,7 +7,6 @@
 #include "about.h"
 #include "pictocodemenudialog.h"
 #include "qtaboutdialog.h"
-#include "testtimer.h"
 #include "qtpictocodemaindialog.h"
 #include "trace.h"
 #include "ui_qtpictocodemenudialog.h"
