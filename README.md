@@ -1,12 +1,9 @@
 # PicToCode
 
+[![Codecov](https://codecov.io/gh/richelbilderbeek/PicToCode/branch/main/graph/badge.svg)](https://codecov.io/gh/richelbilderbeek/PicToCode)
+
 [Go to the nicely rendered
 website](https://richelbilderbeek.github.io/PicToCode/).
-
-Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
----|---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/PicToCode.svg?branch=master)](https://travis-ci.org/richelbilderbeek/PicToCode)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PicToCode/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/PicToCode/branch/master)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/PicToCode.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/PicToCode)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PicToCode/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/PicToCode/branch/develop)
 
 Tool to convert images to Qt or NDS code, written in C++ using Qt.
 
